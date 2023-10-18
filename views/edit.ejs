@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+<div id="main">
+    <form action="/updated/<%=foundeduser._id%>" method="post">
+        <h1>UPDATE CAR</h1>
+   
+    
+     <input type="url" placeholder="image" name="image" value="<%=foundeduser.image%>">
+      <input type="text" placeholder="car name" name="carname" value="<%=foundeduser.carname%>">
+      <input type="text" placeholder="price" name="price"value="<%=foundeduser.price%>">
+      <input type="text" placeholder="varient" name="varient"value="<%=foundeduser.varient%>">
+      <input type="text" placeholder="fule type" name="fule"value="<%=foundeduser.fule%>">
+      <input type="text" placeholder="color" name="color"value="<%=foundeduser.color%>">
+      <input id="btn" type="submit"  value="update">
+ </form>
+</div>
+</body>
+</html>
